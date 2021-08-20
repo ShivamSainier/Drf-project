@@ -8,7 +8,13 @@
 
 <form method="POST">
 {% csrf_token %}
-
+<input type="text" name="invoice_no" placeholder="invoice_no"><br>
+<input type="text" name="seller_name" placeholder="seller_name"><br>
+<input type="text" name="seller_address" placeholder="seller_address"><br>
+<input type="text" name="seller_phone" placeholder="seller_phone"><br>
+<input type="text" name="buyer_name" placeholder="buyer_name"><br>
+<input type="text" name="buyer_address" placeholder="buyer_address"><br>
+<input type="text" name="buyer_phone" placeholder="buyer_phone"><br>
 <input type="submit">
 
 </form>
